@@ -70,6 +70,7 @@ mvn install:install-file -Dfile=./lib/desktop-game-engine.jar -DgroupId=com.java
                 <version>3.3.0</version>
                 <configuration>
                     <outputDirectory>${project.build.directory}/dependencies</outputDirectory>
+                    <includeScope>compile</includeScope>
                     <overWriteReleases>false</overWriteReleases>
                     <overWriteSnapshots>false</overWriteSnapshots>
                     <overWriteIfNewer>true</overWriteIfNewer>
